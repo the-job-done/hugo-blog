@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untagged on Blog emerix.ro</title>
+    <link>https://blog.emerix.ro/tags/untagged/</link>
+    <description>Recent content in Untagged on Blog emerix.ro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Jan 2019 09:34:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.emerix.ro/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Give It a Try</title>
+      <link>https://blog.emerix.ro/posts/first-try/give-it-a-try/</link>
+      <pubDate>Tue, 15 Jan 2019 09:34:54 +0000</pubDate>
+      
+      <guid>https://blog.emerix.ro/posts/first-try/give-it-a-try/</guid>
+      <description>Now this is really bearbones. I&amp;rsquo;m in a hurry toi pickup the kids.
+Laterz
+That didn&amp;rsquo;t work. Adding a title now.
+I&amp;rsquo;ve read this blog post and learned how to add a new post. So I&amp;rsquo;m giving it a try 😄
+Did a bit more reading anbd figured out a few things: - the draft field on new content should be set to false in order to publish it. Kind of normal.</description>
+    </item>
+    
+  </channel>
+</rss>

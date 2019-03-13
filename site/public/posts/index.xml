@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on About me</title>
+		<link>https://blog.emerix.ro/posts/</link>
+		<description>Recent content in Posts on About me</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Mon, 28 Jan 2019 23:05:54 +0000</lastBuildDate>
+		<atom:link href="https://blog.emerix.ro/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>My workflow</title>
+			<link>https://blog.emerix.ro/posts/my-workflow/</link>
+			<pubDate>Mon, 28 Jan 2019 23:05:54 +0000</pubDate>
+			
+			<guid>https://blog.emerix.ro/posts/my-workflow/</guid>
+			<description>Here&amp;rsquo;s a short list:
+ Start with a new file
+Let&amp;rsquo;s call this new file &amp;ldquo;markdown-is-easy-here-is-all-you-need-to-know.md&amp;rdquo;. Hugo has its own header that it looks for at, so next step:
+ Copy the header
+title: &amp;quot;Markdown is easy - here is all you need to know about it!&amp;quot; date: 2019-01-28T23:34:54Z draft: false toc: false images: tags:  Start writing the content
+I&amp;rsquo;ll leave this all up to you.
+ Git magic</description>
+			<content type="html"><![CDATA[<p>Here&rsquo;s a short list:</p>
+
+<ol>
+<li><p>Start with a new file</p>
+
+<p>Let&rsquo;s call this new file &ldquo;markdown-is-easy-here-is-all-you-need-to-know.md&rdquo;. Hugo has its own header that it looks for at, so next step:</p></li>
+
+<li><p>Copy the header</p>
+
+<pre><code>title: &quot;Markdown is easy - here is all you need to know about it!&quot;
+date: 2019-01-28T23:34:54Z
+draft: false
+toc: false
+images:
+tags:
+</code></pre></li>
+
+<li><p>Start writing the content</p>
+
+<p>I&rsquo;ll leave this all up to you.</p></li>
+
+<li><p>Git magic</p>
+
+<p>Locally:</p>
+
+<pre><code>git add .
+git commit -m &quot;markdown-is-easy-here-is-all-you-need-to-know.md&quot;
+git push -u origin master
+</code></pre>
+
+<p>For now I don&rsquo;t have any CI/CD pipeline setup so I just spend time the old ways:</p>
+
+<p>Remotely:</p>
+
+<pre><code>cd ~/blog/content/ &amp;&amp; git pull &amp;&amp; cd ~/blog/
+hugo -v
+</code></pre></li>
+</ol>
+
+<p>That&rsquo;s it!</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Give It a Try</title>
+			<link>https://blog.emerix.ro/posts/first-try/give-it-a-try/</link>
+			<pubDate>Tue, 15 Jan 2019 09:34:54 +0000</pubDate>
+			
+			<guid>https://blog.emerix.ro/posts/first-try/give-it-a-try/</guid>
+			<description>Now this is really bearbones. I&amp;rsquo;m in a hurry to pickup the kids.
+Laterz
+That didn&amp;rsquo;t work. Adding a title now.
+I&amp;rsquo;ve read this blog post and learned how to add a new post. So I&amp;rsquo;m giving it a try 😄
+Did a bit more reading and figured out a few things:
+ the draft field on new content should be set to false in order to publish it. Kind of normal.</description>
+			<content type="html"><![CDATA[<p>Now this is really bearbones.
+I&rsquo;m in a hurry to pickup the kids.</p>
+
+<p>Laterz</p>
+
+<p>That didn&rsquo;t work. Adding a title now.</p>
+
+<p>I&rsquo;ve read <a href="https://nilsmagnus.github.io/post/hello-hugo/" target="_blank">this</a> blog post and learned how to add a new post. So I&rsquo;m giving it a try 😄</p>
+
+<p>Did a bit more <a href="https://forestry.io/blog/up-and-running-with-hugo/" target="_blank">reading</a> and figured out a few things:</p>
+
+<ul>
+<li>the <code>draft</code> field on new content should be set to <code>false</code> in order to publish it. Kind of normal.</li>
+<li>the theme comes with an example of config in <code>themes/hermit/exampleSite/config.toml</code> and this should be adapted to needs.</li>
+<li>the <code>baseUrl</code> field in config must really match. Especially for https, since the browsers will block <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content" target="_blank">mixed content</a>.</li>
+</ul>
+
+<p>So far so good. I&rsquo;ve managed to get the site up and running and showing something (as simple, or naïve as it is). Now on to next stage: <em>workflow</em>.</p>
+
+<p>On the bottom of every page you should see the links to my social networks: twitter and linkedin. I&rsquo;m looking into how to add the other ones: <a href="https://mastodon.social/" target="_blank">mastodon</a> the <a href="https://octodon.social/@Emerix" target="_blank">Octodon instance</a>, <a href="https://keybase.io/" target="_blank">keybase</a> and the rest. Then I learned how to use some fancy features of <a href="https://gohugo.io/" target="_blank">Hugo</a> like <a href="https://gohugo.io/content-management/formats/#blackfriday-options" target="_blank">footnotes</a> as you will see below. Once I get the hang of it, I will try to add these to the bottom of the page. I first need to get some nice looking SVG icons like they already have: <a href="https://github.com/Track3/hermit#social-icons" target="_blank">on github</a>.</p>
+
+<p>I&rsquo;ve setup a private repo with <a href="https://www.github.com" target="_blank">GitHub</a> - thanks Microsoft - and copied all this existing content there. The next thing to manage is <em>a pipeline</em>. Come to think of it, I should add an explanation of all of this here, in the form of a picture -possibly even a sketch-.</p>
+
+<p>And I know my current SSL Report from Qualys has a lower grade (B), I should fix the TLS cyphers at somepoint. The report can be seen <a href="https://www.ssllabs.com/ssltest/analyze.html?d=emerix.ro" target="_blank">here</a> and I also have a screenshot of it at the time I setup the <a href="https://letsencrypt.org/getting-started/" target="_blank">Let’s Encrypt</a> certificate. I read <a href="https://bjornjohansen.no/" target="_blank">Bjørn Johansen</a>&rsquo;s blog posts<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup><sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup> to setup nginx.</p>
+
+<p>I&rsquo;ve also figured out how to format those lists. Slooowly working on it.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="https://bjornjohansen.no/redirect-to-https-with-nginx" target="_blank">Redirect all HTTP requests to HTTPS with Nginx</a>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2"><a href="https://bjornjohansen.no/redirect-to-https-with-nginx" target="_blank">Optimizing HTTPS on Nginx</a>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

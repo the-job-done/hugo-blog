@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About me</title>
+    <link>https://blog.emerix.ro/</link>
+    <description>Recent content on About me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 28 Jan 2019 23:05:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.emerix.ro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My workflow</title>
+      <link>https://blog.emerix.ro/posts/my-workflow/</link>
+      <pubDate>Mon, 28 Jan 2019 23:05:54 +0000</pubDate>
+      
+      <guid>https://blog.emerix.ro/posts/my-workflow/</guid>
+      <description>Here&amp;rsquo;s a short list:
+ Start with a new file
+Let&amp;rsquo;s call this new file &amp;ldquo;markdown-is-easy-here-is-all-you-need-to-know.md&amp;rdquo;. Hugo has its own header that it looks for at, so next step:
+ Copy the header
+title: &amp;quot;Markdown is easy - here is all you need to know about it!&amp;quot; date: 2019-01-28T23:34:54Z draft: false toc: false images: tags:  Start writing the content
+I&amp;rsquo;ll leave this all up to you.
+ Git magic</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>https://blog.emerix.ro/about-hugo/</link>
+      <pubDate>Tue, 15 Jan 2019 10:05:11 +0000</pubDate>
+      
+      <guid>https://blog.emerix.ro/about-hugo/</guid>
+      <description>For now, this will do. As soon as I have the content ready I will update it hear also.
+I promise</description>
+    </item>
+    
+    <item>
+      <title>Give It a Try</title>
+      <link>https://blog.emerix.ro/posts/first-try/give-it-a-try/</link>
+      <pubDate>Tue, 15 Jan 2019 09:34:54 +0000</pubDate>
+      
+      <guid>https://blog.emerix.ro/posts/first-try/give-it-a-try/</guid>
+      <description>Now this is really bearbones. I&amp;rsquo;m in a hurry to pickup the kids.
+Laterz
+That didn&amp;rsquo;t work. Adding a title now.
+I&amp;rsquo;ve read this blog post and learned how to add a new post. So I&amp;rsquo;m giving it a try 😄
+Did a bit more reading and figured out a few things:
+ the draft field on new content should be set to false in order to publish it. Kind of normal.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blog.emerix.ro/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.emerix.ro/readme/</guid>
+      <description> hugo-content </description>
+    </item>
+    
+  </channel>
+</rss>
